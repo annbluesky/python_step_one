@@ -8,7 +8,7 @@ books = [
     {
         "node_type": "node",
         "nodeResponse": {
-            "type": "text",
+            "type": "image",
             "response": "https://www.70millionthailand.org/api/jsonShowImageByType/id/62106/attribute/path_img"
         }
     }
@@ -49,7 +49,7 @@ def api_id():
                 {
                     "node_type": "node",
                     "nodeResponse": {
-                        "type": "image",
+                        "type": "text",
                         "response": "https://www.70millionthailand.org/api/jsonShowImageByType/id/"+str(id)+"/attribute/path_img"
                     }
                 }
