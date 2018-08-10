@@ -45,15 +45,13 @@ def api_id():
     #     if book['id'] == id:
     #         results.append(book)
 
-    results = [
-                {
+    results = {
                     "node_type": "node",
                     "nodeResponse": {
                         "type": "text",
-                        "response": "https://www.70millionthailand.org/api/jsonShowImageByType/id/"+str(id)+"/attribute/path_img"
+                        "response": "http://www.70millionthailand.org/api/jsonShowImageByType/id/"+str(id)+"/attribute/path_img"
                     }
                 }
-            ]
 
     # Use the jsonify function from Flask to convert our list of
     # Python dictionaries to the JSON format.
