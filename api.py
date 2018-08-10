@@ -57,18 +57,6 @@ def api_id():
                 ]
             }
 
-
-
-    # results = [
-    #             {
-    #                 "node_type": "node",
-    #                 "nodeResponse": {
-    #                     "type": "image",
-    #                     "response": "http://www.70millionthailand.org/api/jsonShowImageByType/id/"+str(id)+"/attribute/path_img"
-    #                 }
-    #             }
-    #         ]
-
     # Use the jsonify function from Flask to convert our list of
     # Python dictionaries to the JSON format.
     return jsonify(results)
