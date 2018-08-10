@@ -50,7 +50,7 @@ def api_id():
                     {
                         "node_type": "node",
                         "nodeResponse": {
-                            "type": "file",
+                            "type": "image",
                             "response": "https://www.70millionthailand.org/api/jsonShowImageByType/id/"+str(id)+"/attribute/path_img"
                     }
                     }
