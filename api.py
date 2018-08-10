@@ -50,7 +50,7 @@ def api_id():
                     {
                         "node_type": "node",
                         "nodeResponse": {
-                            "type": "text",
+                            "type": "image",
                         "response": "http://www.70millionthailand.org/api/jsonShowImageByType/id/"+str(id)+"/attribute/path_img"
                     }
                     }
@@ -63,7 +63,7 @@ def api_id():
     #             {
     #                 "node_type": "node",
     #                 "nodeResponse": {
-    #                     "type": "text",
+    #                     "type": "image",
     #                     "response": "http://www.70millionthailand.org/api/jsonShowImageByType/id/"+str(id)+"/attribute/path_img"
     #                 }
     #             }
