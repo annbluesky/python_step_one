@@ -8,7 +8,7 @@ books = [
     {
         "node_type": "node",
         "nodeResponse": {
-            "type": "image",
+            "type": "text",
             "response": "https://www.70millionthailand.org/api/jsonShowImageByType/id/62106/attribute/path_img"
         }
     }
